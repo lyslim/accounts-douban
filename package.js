@@ -1,8 +1,8 @@
 Package.describe({
   name: 'theycallmek:accounts-douban',
   version: '0.0.1',
-  summary: 'Login Service for douban',
-  git: '',
+  summary: 'Meteor OAuth2 login service with douban',
+  git: 'https://github.com/lyslim/accounts-douban',
   documentation: 'README.md'
 });
 

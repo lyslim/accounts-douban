@@ -1,9 +1,9 @@
-# Meteor Login Service for Douban
+# Meteor OAuth2 login service with Douban
 
 **Usage**:
 
 1. Install [Meteor](https://www.meteor.com/install "Meteor").
-2. `Meteor add service-configuration`
+2. `meteor add service-configuration`
 3.  Apply for [douban API key](http://developers.douban.com/apikey/apply "douban API key").
     For local test, please maintain the following callback path:
     ```
@@ -26,7 +26,7 @@
       );
     ```
 
-5. `Meteor add accounts-douban`, this will essentially install both `accounts-douban` and `douban` packages.
+5. `meteor add theycallmek:accounts-douban`, this will essentially install both `accounts-douban` and `douban` packages.
 
 6. Play with function `loginWithDouban` in client code, e.g.
     ```javascript
@@ -37,7 +37,7 @@ Enjoy!
 
 **Reference**:
 
-1. [Douban OAuth doc](http://developers.douban.com/wiki/?title=oauth2#server_side_flow).
+1. [Douban OAuth2 doc](http://developers.douban.com/wiki/?title=oauth2#server_side_flow).
 2. Meteor [loginWith\<ExternalService\>](http://docs.meteor.com/#/full/meteor_loginwithexternalservice). 
 
 **Note**:
